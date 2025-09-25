@@ -1,5 +1,7 @@
 # nvim-kotlin-lsp
 
+[![Nix Flake Checks](https://github.com/ttak0422/nvim-kotlin-lsp/actions/workflows/nix-flake-check.yml/badge.svg)](https://github.com/ttak0422/nvim-kotlin-lsp/actions/workflows/nix-flake-check.yml)
+
 A Neovim companion plugin that provides additional functionality for [`kotlin-lsp`](https://github.com/fwcd/kotlin-language-server) beyond what the language server itself provides.
 
 ## Features
