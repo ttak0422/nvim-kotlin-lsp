@@ -6,7 +6,10 @@ A Neovim companion plugin that provides additional functionality for [`kotlin-ls
 
 ## Features
 
-This plugin extends kotlin-lsp with features that are not available through the language server protocol alone, providing enhanced development experience for Kotlin projects.
+This plugin currently implements a small subset of the functionality available in the `kotlin-vscode` that ships with [`kotlin-lsp`](https://github.com/Kotlin/kotlin-lsp/tree/main/kotlin-vscode).
+
+- `decompile` command for opening `jar://` URI 
+- `exportWorkspace` command for writing `workspace.json` 
 
 ## Usage
 
