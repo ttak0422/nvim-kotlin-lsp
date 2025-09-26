@@ -54,7 +54,7 @@ function M.open_decompiled_file(fname)
     end
   )
 
-  -- Need to block. to prevent `Cursor position outside buffer`
+  -- Need to block to prevent `Cursor position outside buffer`
   vim.wait(decompile_timeout_ms, function()
     return done
   end)
